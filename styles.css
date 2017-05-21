@@ -1,0 +1,36 @@
+#paper{
+	width: 1024px;
+	height:560px;
+}
+.text{
+	font-size: 36px;
+	text-anchor:middle;
+
+}
+.no-select{
+	-moz-user-select:none;
+	-webkit-user-select:none;
+}
+.fadein {
+    
+    fill:gold;
+ 	opacity: 0.9;
+ 	stroke:black;
+    stroke-width:4;
+    
+ }
+ .orange{
+ 	transition: fill 0.5s ease,stroke 0.5s ease;
+ 	fill:orange;
+ 	stroke:purple;
+    stroke-width:4;
+
+ }
+ .sym{
+ 	
+
+    opacity: 1;
+    stroke:turquoise;
+    stroke-width:4;
+    fill:white;
+ }
